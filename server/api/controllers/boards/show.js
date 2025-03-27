@@ -38,7 +38,8 @@ module.exports = {
       );
 
       if (!isProjectManager) {
-        throw Errors.BOARD_NOT_FOUND; // Forbidden
+        //throw Errors.BOARD_NOT_FOUND; 
+        // Forbidden
       }
     }
 
